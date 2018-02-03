@@ -1,0 +1,32 @@
+.btn-medium{
+
+	font-size: 15px;
+	font-weight: lighter;
+	border: 1px solid #CCD;
+	padding:10px 15px;
+	border-radius: 70px;
+}
+
+.btn-medium:hover{
+
+	text-decoration: none;
+	color: black;
+	background-color: #FFF;
+}
+
+.btn-treehouse{
+
+	color:white;
+	font-size: 15px;
+	font-weight: lighter;
+	padding:10px 15px;
+	border-radius: 5px;
+	background-color: #6AD58B;
+}
+
+.btn-treehouse:hover{
+	
+	color: #6AD58B;
+	text-decoration: none;
+	background-color: white;
+}

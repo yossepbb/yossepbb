@@ -1,0 +1,45 @@
+body{
+
+	margin: 40px;
+	padding: 50px 50px; 
+
+	background-color: white;
+	font-family: monospace;
+	font-size: 20px;
+	font-weight: lighter;
+
+	border: 1px none;
+	border-radius: 5px;
+	box-shadow: 2px 2px 1px grey;
+
+}
+
+h1{
+
+	color: #1A89EA;
+	font-family: helvetica;	
+	font-size: 40px;
+	font-weight: bold;
+	text-align: center;
+}
+
+#footer{
+
+	color: #1A89EA;
+	font-family: "Montserrat", "sans-serif";
+	margin: 0;
+	padding: 10px 10px !important;
+	border-radius: 5px;
+	background-color: black;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+#footer a:hover{
+
+	text-decoration: none;
+	color: white; 
+}
+
+

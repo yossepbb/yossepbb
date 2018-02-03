@@ -1,0 +1,77 @@
+.conteneur{
+
+	background-color: white;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+	margin: 20px 0px !important;
+	padding: 100px 20px 50px 20px !important;
+	border-radius: 0 5px 0 0;
+
+}
+
+
+.card{
+
+	color: white;
+	position: relative;
+	height:2vh !important;
+	width: 50vh !important;
+
+	border-radius: 5px;
+	background-image:url("https://picsum.photos/200/300/?random");
+	background-size: cover;
+	margin: auto !important;
+	padding: 150px 0px !important;
+
+}
+
+.card-category{
+
+	font-size: 20px;
+	font-weight: bold;
+	position: absolute;
+	top: 10px;
+	left: 10px;
+}
+
+.card-description{
+
+	font-size: 17px;
+	position: absolute;
+	bottom: 10px;
+	left: 10px;
+}
+
+.card-description a:hover{
+
+	text-decoration: none !important;
+	color: black !important;
+}
+
+.card .btn-medium{
+
+
+	padding: 5px;
+	margin: 5px;
+}
+
+.card .btn-treehouse{
+
+	padding: 5px;
+	margin: 5px;
+}
+
+
+.card:hover .card-description{
+
+	color: black;
+	font-size: 25px;
+	background-color: #6AD58B;
+	border-radius: 5px;
+	transition: 0.3s ease;
+
+	margin: 5px;
+	padding: 5px 5px;
+}

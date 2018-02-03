@@ -1,0 +1,21 @@
+.avatar{
+
+	border-radius: 50%;
+	border:1px solid black !important;
+	width: 40px;
+}
+.avatar-small{
+
+	border-radius: 50%;
+	border:1px solid black !important;
+	width: 20px;
+}
+
+.avatar-card{
+
+	position: absolute;
+	top: 5px;
+	right: 1px;
+	background-color: white;
+	opacity: 0.8; 
+}
